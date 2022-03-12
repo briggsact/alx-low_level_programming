@@ -4,6 +4,7 @@
  *
  * Return: 0 (success/correct)
  */
+int main(void)
 
 {
 char base_16;
