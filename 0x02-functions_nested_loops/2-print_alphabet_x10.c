@@ -5,8 +5,8 @@
  * Return: Always 0
  */
 int main(void)
-{
 
+{
 int i;
 char c;
 
