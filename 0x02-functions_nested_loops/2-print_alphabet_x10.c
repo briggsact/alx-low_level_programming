@@ -1,11 +1,9 @@
-#include "main.h"
+#include "holberton.h"
 /**
- * main - check the code.
- *
- * Return: Always 0.
- */
-int main(void)
-
+  * print_alphabet_x10 - repeats the print_alphabet 10 times.
+  * Return: Nothing.
+  */
+void print_alphabet_x10(void)
 {
 int i;
 char c;
@@ -18,7 +16,4 @@ _putchar(c);
 }
 _putchar('\n');
 }
-
-print_alphabet_x10(repeats the print_alphabet 10 times);
-return (0);
 }
