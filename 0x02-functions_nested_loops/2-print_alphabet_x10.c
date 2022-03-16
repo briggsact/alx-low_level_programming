@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code for Holberton School students.
+ * print-alphabet_x10 - print alphabet
  *
  * Return: Always 0.
  */
@@ -14,7 +14,7 @@ int count;
 count = 0;
 while (count < 10)
 {
-for (alphabet = a' ; alphabet <= 'z'; alphabet++)
+for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
 {
 _putchar(alphabet);
 }
