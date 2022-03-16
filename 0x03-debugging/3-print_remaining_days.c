@@ -13,7 +13,7 @@ int month;
 int day;
 int year;
 
-month = 3;
+month = 2;
 day = 29;
 year = 2000;
 
