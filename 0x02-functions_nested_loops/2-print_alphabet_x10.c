@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_alphabet_x10 - print alphabet
  *
@@ -7,7 +8,7 @@
 void print_alphabet_x10(void)
 {
 int alphabet;
-int count:
+int count;
 
 
 count = 0;
