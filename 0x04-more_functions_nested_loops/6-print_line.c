@@ -1,29 +1,22 @@
 #include "main.h"
 /**
- * print_square - prints a square
- *@size: print size
+ * print_line - draws a straight line in the terminal.
+ *@n: print int
  * Return: Always 0.
  */
-
-void print_square(int size)
+void print_line(int n)
 {
 
 int i;
-int k;
 
-if (size > 0)
+if (n > 0)
 {
-for (i = 0; i < size; i++)
+for (i = 0; i < n; i++)
 {
-
-for (k = 0; k < size; k++)
-{
-_putchar (35);
+_putchar (95);
 }
+
 _putchar ('\n');
-
-}
-
 }
 
 else
