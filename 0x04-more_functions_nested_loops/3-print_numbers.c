@@ -5,7 +5,7 @@
  */
 void print_numbers(void)
 {
-int i
+int i;
 
 i = 0;
 
