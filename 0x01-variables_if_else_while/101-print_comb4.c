@@ -15,9 +15,9 @@ int center;
 
 for (left = 48; left <= 57; left++)
 {
-for (center = left +1; center <= 57; center++)
+for (center = left + 1; center <= 57; center++)
 {
-for (right = center +1 ; right <= 57; right++)
+for (right = center + 1 ; right <= 57; right++)
 
 
 {
