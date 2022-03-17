@@ -11,7 +11,7 @@ i = 48;
 
 while (i < 58)
 {
-_putchar (1 + '48');
+_putchar (i + '48');
 i++;
 }
 
