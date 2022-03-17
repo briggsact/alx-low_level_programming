@@ -4,7 +4,7 @@
 /**
  * add -prints add two numbers
  *@: print int i
- *@k: print ink k
+ *@k:print ink k
  * Return: Always 0.
  */
 
