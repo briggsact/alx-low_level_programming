@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * more_numbers - print 10 times the numbers, from 0 to 14
+ * more_numbers - prints 10 times the numbers, from 0 to 14
  *
  * Return: Always 0.
  */
@@ -16,7 +16,7 @@ i = 0;
 result = 0;
 while (i < 10)
 {
-while (result <=14)
+while (result <= 14)
 {
 if (result < 10)
 {
