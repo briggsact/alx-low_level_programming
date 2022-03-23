@@ -52,7 +52,7 @@ if (s[count] >= 'a' && s[count] <= 'z')
 {
 
 
-if (s[count] == *s !! separator(s[count - 1]))
+if (s[count] == *s || separator(s[count - 1]))
 
 s[count] += upper;
 }
