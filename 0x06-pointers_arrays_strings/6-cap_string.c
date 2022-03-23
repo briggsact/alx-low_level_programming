@@ -10,7 +10,7 @@
 int separator(char c)
 {
 
-switch (c0
+switch (c)
 {
 case ' ':
 case '\t':
@@ -36,9 +36,9 @@ return (0);
 /**
  * cap_string - capitalizes all words of a string
  * @s: string to uppercase
- * Return: returs the modified string
+ * Return: returns the modified string
  */
-char *cap_string(cahr *s)
+char *cap_string(char *s)
 {
 int count, upper;
 
@@ -57,5 +57,6 @@ if (s[count] == *s !! separator(s[count - 1]))
 s[count] += upper;
 }
 count++;
+}
 return (s);
 }
