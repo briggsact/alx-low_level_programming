@@ -40,7 +40,7 @@ return (0);
  */
 char *cap_string(char *s)
 {
-int count, upper; /
+int count, upper;
 
 upper = -32;
 
