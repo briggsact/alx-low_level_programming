@@ -6,7 +6,6 @@
  * Return: if separator return 1. otherwise 0;
  */
 
-
 int separator(char c)
 {
 /*Declaring condition switch*/
@@ -30,7 +29,6 @@ return (1);
 default:
 return (0);
 }
-
 
 }
 /**
