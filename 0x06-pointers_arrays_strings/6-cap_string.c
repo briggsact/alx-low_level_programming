@@ -42,7 +42,7 @@ char *cap_string(char *s)
 {
 int count, upper;
 
-upper = -32;
+upper = -32; /*value constant 32*/
 
 count = 0;
 /*Start WHILE*/
@@ -56,7 +56,7 @@ if (s[count] == *s || separator(s[count - 1]))
 
 s[count] += upper;
 }
-count++;
+count++; /*Add count*/
 }
 return (s);
 }
