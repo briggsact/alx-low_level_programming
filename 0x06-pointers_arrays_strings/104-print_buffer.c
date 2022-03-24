@@ -12,7 +12,7 @@ return (n >= 32 && n <= 126);
 }
 
 /**
- * printHexes - print hex value for string b in formatted form
+ * printHexes - print hex values for string b in formatted form
  * @b: string to print
  * @start: starting position
  * @end: ending position
